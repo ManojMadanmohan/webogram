@@ -42,6 +42,11 @@ Config.Modes = {
   push_api: location.search.indexOf('push=1') == -1
 }
 
+console.log("hello")
+console.log(Config.Modes.test)
+console.log(Config.Modes.debug)
+console.log(Config.Modes.push_api)
+
 Config.Navigator = {
   osX: (navigator.platform || '').toLowerCase().indexOf('mac') != -1 ||
     (navigator.userAgent || '').toLowerCase().indexOf('mac') != -1,
